@@ -1,0 +1,100 @@
+* {
+  margin: auto;
+  font-family: 'Kanit', sans-serif;
+}
+
+body {
+  /* background-color: #016fb9; */
+  height: 100%;
+  background-size:auto;
+  background-repeat: no-repeat;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp5953709.jpg&f=1&nofb=1&ipt=809b7ce723dbad8809b1ec2fa435b84a8dff09cbaf8e9e87b4356364a295ddea&ipo=images");
+}
+
+html {
+  height: 100%;
+}
+
+
+.navbar {
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-block: 1rem;
+  position: fixed;
+  /* background-color: #016fb9; */
+}
+
+.navbar ul {
+  gap: 40px;
+}
+
+.navbar li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 8px 38px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  color: rgb(100,100,100);
+  background-color: white;
+}
+
+.form {
+  height: 40%;
+  width: 40rem;
+}
+
+.container {
+  width: 100%;
+  height: 60%;
+}
+
+.container-full {
+  width: 100%;
+  height: 100%;
+}
+
+.forms-wrapper {
+  width: 200%;
+  display: flex;
+  transition: all;
+  transition-duration: 0.5s;
+  height: 100%;
+}
+
+.change-form {
+  transform: translateX(-30rem);
+  padding-block: 2rem;
+}
+
+.form-container {
+  border-radius: 10px;
+  background-color: rgba(250,250,250,0.3);
+  backdrop-filter: blur(10px);
+  /* overflow-x: hidden; */
+  width: 30rem;
+}
